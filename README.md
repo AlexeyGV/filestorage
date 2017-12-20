@@ -1,24 +1,9 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Задача
 
-Things you may want to cover:
+* Разработать API приложение для загрузки файлов. Загруженные файлы должны находиться в корне приложения, в папке storage;
 
-* Ruby version
+* Разработать архитектуру хранилища. Общее количство файлов загруженных файлов может быть больше 1млн. В одной папке может находиться не более 999 файлов(ограничение файловой системы);
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Имена файлов могут содержать запрещенные символы.
