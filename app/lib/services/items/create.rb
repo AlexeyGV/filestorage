@@ -17,6 +17,7 @@ module Services
           @item.path = manager.local_path
           @item.original_filename = @file.original_filename
           @item.save!
+          true
         end
       rescue
         remove_file(manager.full_path)
