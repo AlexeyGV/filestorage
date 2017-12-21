@@ -17,3 +17,5 @@
 
 /storage/*
 !/storage/.keep
+
+.rspec
